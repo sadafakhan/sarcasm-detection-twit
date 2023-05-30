@@ -1,0 +1,7 @@
+src/__pycache__/*
+run.out
+run.log
+run.error
+.idea/*
+*.npy
+.DS_Store
