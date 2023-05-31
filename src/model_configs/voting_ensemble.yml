@@ -1,0 +1,4 @@
+name: voting
+model: DeepMojiWithVoting
+enabled: True
+hyperparameters: {}

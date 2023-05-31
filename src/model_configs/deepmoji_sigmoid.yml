@@ -1,0 +1,7 @@
+name: deepmoji_sigmoid
+model: DeepMojiWithSVM
+enabled: True
+hyperparameters:
+  class_weight: balanced
+  kernel: sigmoid
+  verbose: True

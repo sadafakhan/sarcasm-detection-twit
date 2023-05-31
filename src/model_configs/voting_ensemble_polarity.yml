@@ -1,0 +1,4 @@
+name: voting_polarity
+model: DeepMojiPolarityWithVoting
+enabled: True
+hyperparameters: {}

@@ -1,0 +1,160 @@
+predict_false_1
+	PRIMARY
+	DEV
+    **************************
+    F1 Score: 0.429042904290429
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       260     0
+    Sarcastic           86      0
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+predict_random
+	PRIMARY
+	DEV
+    **************************
+    F1 Score: 0.4608893557422969
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       121     139
+    Sarcastic           39      47
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+deepmoji_linear
+	PRIMARY
+	DEV
+    **************************
+    F1 Score: 0.7589130182324934
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       201     59
+    Sarcastic           13      73
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+deepmoji_rbf
+	PRIMARY
+	DEV
+    **************************
+    F1 Score: 0.19907407407407407
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       0     260
+    Sarcastic           0      86
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+adaboost_polarity
+	PRIMARY
+	DEV
+    **************************
+    F1 Score: 0.6721638924455825
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       238     22
+    Sarcastic           52      34
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+knneighbors_polarity
+	PRIMARY
+	DEV
+    **************************
+    F1 Score: 0.7077223728172477
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       240     20
+    Sarcastic           47      39
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+voting_polarity
+	PRIMARY
+	DEV
+    **************************
+    F1 Score: 0.8333840227088403
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       255     5
+    Sarcastic           33      53
+    
+        
+     
+
+    **************************
+    **************************
+
+    

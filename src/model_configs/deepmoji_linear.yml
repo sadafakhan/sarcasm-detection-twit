@@ -1,0 +1,7 @@
+name: deepmoji_linear
+model: DeepMojiWithSVM
+enabled: True
+hyperparameters:
+  class_weight: balanced
+  kernel: linear
+  probability: True

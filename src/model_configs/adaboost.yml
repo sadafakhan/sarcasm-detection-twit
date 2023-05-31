@@ -1,0 +1,5 @@
+name: adaboost
+model: DeepMojiWithAdaBoost
+enabled: True
+hyperparameters:
+  learning_rate: 1.0

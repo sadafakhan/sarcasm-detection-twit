@@ -1,0 +1,160 @@
+predict_false_1
+	PRIMARY
+	TEST
+    **************************    
+    F1 Score: 0.4615384615384615
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1200     0
+    Sarcastic           200      0
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+predict_random
+	PRIMARY
+	TEST
+    **************************    
+    F1 Score: 0.41516373548411184
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       590     610
+    Sarcastic           106      94
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+deepmoji_linear
+	PRIMARY
+	TEST
+    **************************    
+    F1 Score: 0.5261108475648324
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       718     482
+    Sarcastic           66      134
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+deepmoji_rbf
+	PRIMARY
+	TEST
+    **************************    
+    F1 Score: 0.125
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       0     1200
+    Sarcastic           0      200
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+adaboost_polarity
+	PRIMARY
+	TEST
+    **************************    
+    F1 Score: 0.5666749950589017
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1005     195
+    Sarcastic           137      63
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+knneighbors_polarity
+	PRIMARY
+	TEST
+    **************************    
+    F1 Score: 0.606570468480609
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1080     120
+    Sarcastic           139      61
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+voting_polarity
+	PRIMARY
+	TEST
+    **************************    
+    F1 Score: 0.6061177640012655
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1083     117
+    Sarcastic           140      60
+    
+    
+     
+
+    **************************
+    **************************
+
+    

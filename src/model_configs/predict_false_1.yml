@@ -1,0 +1,5 @@
+name: predict_false_1
+model: PredictFalse
+enabled: True
+hyperparameters:
+  dummy: 1

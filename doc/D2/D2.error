@@ -1,0 +1,22 @@
+/home2/nimel/573/torchMoji/torchmoji/model_def.py:159: UserWarning: nn.init.uniform is now deprecated in favor of nn.init.uniform_.
+  nn.init.uniform(self.embed.weight.data, a=-0.5, b=0.5)
+/home2/nimel/573/torchMoji/torchmoji/model_def.py:161: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(t)
+/home2/nimel/573/torchMoji/torchmoji/model_def.py:163: UserWarning: nn.init.orthogonal is now deprecated in favor of nn.init.orthogonal_.
+  nn.init.orthogonal(t)
+/home2/nimel/573/torchMoji/torchmoji/model_def.py:165: UserWarning: nn.init.constant is now deprecated in favor of nn.init.constant_.
+  nn.init.constant(t, 0)
+/home2/nimel/anaconda3/envs/sarcasm/lib/python3.5/site-packages/sklearn/metrics/classification.py:1137: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+/home2/nimel/anaconda3/envs/sarcasm/lib/python3.5/site-packages/torch/nn/functional.py:995: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Traceback (most recent call last):
+  File "src/primary_task.py", line 119, in <module>
+    main()
+  File "src/primary_task.py", line 77, in main
+    train_predictions = model.predict(train_examples, split='train')
+TypeError: predict() got an unexpected keyword argument 'split'
+
+real	2m46.365s
+user	2m17.058s
+sys	0m3.439s

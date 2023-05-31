@@ -1,0 +1,5 @@
+name: logreg
+model: DeepMojiWithLogisticRegression
+enabled: True
+hyperparameters:
+  class_weight: balanced

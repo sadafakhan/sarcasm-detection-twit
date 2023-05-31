@@ -1,0 +1,29 @@
+name: D3
+train_data: data/primary_task/train.csv
+test_data: data/primary_task/test.csv
+# these contain configs to all models
+model_configs: 
+  - src/model_configs/predict_false_1.yml
+  - src/model_configs/predict_random.yml
+  - src/model_configs/deepmoji_rbf.yml
+  - src/model_configs/deepmoji_linear.yml
+  - src/model_configs/deepmoji_sigmoid.yml
+  - src/model_configs/randomforest3.yml
+  - src/model_configs/randomforest4.yml
+  - src/model_configs/randomforest5.yml
+  - src/model_configs/naivebayes.yml
+  - src/model_configs/knn.yml
+  - src/model_configs/mlp_neural_net.yml
+  - src/model_configs/mlp_neural_net_5000.yml
+  - src/model_configs/adaboost.yml
+  - src/model_configs/logistic_regression.yml
+  - src/model_configs/voting_ensemble.yml
+  - src/model_configs/voting_ensemble_soft.yml
+
+#Polarity-specific models
+  - src/model_configs/knn_polarity.yml
+  - src/model_configs/adaboost_polarity.yml
+  - src/model_configs/voting_ensemble_polarity.yml
+  - src/model_configs/mlp_polarity.yml
+
+results: results/D3_scores.out

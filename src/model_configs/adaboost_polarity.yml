@@ -1,0 +1,5 @@
+name: adaboost_polarity
+model: DeepMojiPolarityWithAdaBoost
+enabled: True
+hyperparameters:
+  learning_rate: 1.0

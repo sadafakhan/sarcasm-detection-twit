@@ -1,0 +1,19 @@
+name: D4
+adaptation_data: data/adaptation_task/tweets_rephrases.csv
+test_data: data/primary_task/test.csv
+train_data: data/primary_task/train.csv
+model_configs: 
+  - src/model_configs/predict_false_1.yml
+  - src/model_configs/predict_random.yml
+  - src/model_configs/deepmoji_linear.yml
+  - src/model_configs/deepmoji_rbf.yml
+  - src/model_configs/adaboost_polarity.yml
+  - src/model_configs/knn_polarity.yml
+  - src/model_configs/voting_ensemble_polarity.yml
+results: results/D4_scores.out
+
+results_filename: D4_scores.out
+primary_dev_folder: results/D4/primary/devtest/
+primary_eval_folder: results/D4/primary/evaltest/
+adaptation_dev_folder: results/D4/adaptation/devtest/
+adaptation_eval_folder: results/D4/adaptation/evaltest/

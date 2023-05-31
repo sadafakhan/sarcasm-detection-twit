@@ -1,0 +1,7 @@
+name: mlp_neural_net
+model: DeepMojiWithMLP
+enabled: True
+hyperparameters:
+  alpha: 0.00001
+  solver: adam
+  max_iter: 1000

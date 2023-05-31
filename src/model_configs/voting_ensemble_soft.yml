@@ -1,0 +1,5 @@
+name: voting_soft
+model: DeepMojiWithVoting
+enabled: True
+hyperparameters:
+  voting: soft

@@ -1,0 +1,215 @@
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2479
+obj = -2466.194861, rho = -0.819999
+nSV = 2483, nBSV = 2008
+Total nSV = 2483
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2495
+obj = -2478.049846, rho = -0.787931
+nSV = 2496, nBSV = 2026
+Total nSV = 2496
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2497
+obj = -2441.700195, rho = 1.006576
+nSV = 2457, nBSV = 2001
+Total nSV = 2457
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2488
+obj = -2471.536283, rho = -0.799167
+nSV = 2490, nBSV = 2021
+Total nSV = 2490
+..
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 2497
+obj = -2441.291040, rho = 1.008604
+nSV = 2460, nBSV = 1997
+Total nSV = 2460
+...
+Warning: using -h 0 may be faster
+*
+optimization finished, #iter = 3122
+obj = -3093.794337, rho = 0.710210
+nSV = 3122, nBSV = 2343
+Total nSV = 3122
+Tokenizing using dictionary from /home2/conchen/LING573/torchMoji/model/vocabulary.json
+Loading model from /home2/conchen/LING573/torchMoji/model/pytorch_model.bin.
+Loading weights for embed.weight
+Loading weights for lstm_0.weight_ih_l0
+Loading weights for lstm_0.weight_hh_l0
+Loading weights for lstm_0.bias_ih_l0
+Loading weights for lstm_0.bias_hh_l0
+Loading weights for lstm_0.weight_ih_l0_reverse
+Loading weights for lstm_0.weight_hh_l0_reverse
+Loading weights for lstm_0.bias_ih_l0_reverse
+Loading weights for lstm_0.bias_hh_l0_reverse
+Loading weights for lstm_1.weight_ih_l0
+Loading weights for lstm_1.weight_hh_l0
+Loading weights for lstm_1.bias_ih_l0
+Loading weights for lstm_1.bias_hh_l0
+Loading weights for lstm_1.weight_ih_l0_reverse
+Loading weights for lstm_1.weight_hh_l0_reverse
+Loading weights for lstm_1.bias_ih_l0_reverse
+Loading weights for lstm_1.bias_hh_l0_reverse
+Loading weights for attention_layer.attention_vector
+Ignoring weights for output_layer.0.weight
+Ignoring weights for output_layer.0.bias
+predict_false_1
+training...
+train predictions...
+dev predictions...
+adaptation task predictions...
+predict_false_1 trained model in 0.0212 seconds
+task: primary confusion matrix:  [[2343    0]
+ [ 779    0]]
+task: primary confusion matrix:  [[260   0]
+ [ 86   0]]
+task: adaptation confusion matrix:  [[429   0]
+ [438   0]]
+predict_false_1 ran in 9.9656 seconds
+predict_random
+training...
+train predictions...
+dev predictions...
+adaptation task predictions...
+predict_random trained model in 0.0343 seconds
+task: primary confusion matrix:  [[1170 1173]
+ [ 378  401]]
+task: primary confusion matrix:  [[134 126]
+ [ 47  39]]
+task: adaptation confusion matrix:  [[207 222]
+ [243 195]]
+predict_random ran in 9.748 seconds
+deepmoji_linear
+training...
+Attempting to get 3122 vectors
+created directory:  src/vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_train_vectors.npy
+Returning3122 vectors
+train predictions...
+Attempting to get 3122 vectors
+Returning3122 vectors
+dev predictions...
+Attempting to get 346 vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_dev_vectors.npy
+Returning346 vectors
+adaptation task predictions...
+Attempting to get 867 vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_adaptation_tweet_vectors.npy
+Returning867 vectors
+Attempting to get 867 vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_adaptation_rephrase_vectors.npy
+Returning867 vectors
+deepmoji_linear trained model in 315.2913 seconds
+task: primary confusion matrix:  [[1860  483]
+ [ 121  658]]
+task: primary confusion matrix:  [[209  51]
+ [ 15  71]]
+task: adaptation confusion matrix:  [[332  97]
+ [ 96 342]]
+deepmoji_linear ran in 325.0775 seconds
+deepmoji_rbf
+training...
+Attempting to get 3122 vectors
+Returning3122 vectors
+[LibSVM]train predictions...
+Attempting to get 3122 vectors
+Returning3122 vectors
+dev predictions...
+Attempting to get 346 vectors
+Returning346 vectors
+adaptation task predictions...
+Attempting to get 867 vectors
+Returning867 vectors
+Attempting to get 867 vectors
+Returning867 vectors
+deepmoji_rbf trained model in 133.2676 seconds
+task: primary confusion matrix:  [[   0 2343]
+ [   0  779]]
+task: primary confusion matrix:  [[  0 260]
+ [  0  86]]
+task: adaptation confusion matrix:  [[197 232]
+ [259 179]]
+deepmoji_rbf ran in 143.0145 seconds
+adaboost_polarity
+training...
+Attempting to get 3122 vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_polarity_train_vectors.npy
+Returning3122 vectors
+train predictions...
+Attempting to get 3122 vectors
+Returning3122 vectors
+dev predictions...
+Attempting to get 346 vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_polarity_dev_vectors.npy
+Returning346 vectors
+adaptation task predictions...
+Attempting to get 867 vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_polarity_adaptation_tweet_vectors.npy
+Returning867 vectors
+Attempting to get 867 vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_polarity_adaptation_rephrase_vectors.npy
+Returning867 vectors
+adaboost_polarity trained model in 264.476 seconds
+task: primary confusion matrix:  [[2213  130]
+ [ 458  321]]
+task: primary confusion matrix:  [[244  16]
+ [ 51  35]]
+task: adaptation confusion matrix:  [[309 120]
+ [120 318]]
+adaboost_polarity ran in 274.2807 seconds
+knneighbors_polarity
+training...
+Attempting to get 3122 vectors
+Returning3122 vectors
+train predictions...
+Attempting to get 3122 vectors
+Returning3122 vectors
+dev predictions...
+Attempting to get 346 vectors
+Returning346 vectors
+adaptation task predictions...
+Attempting to get 867 vectors
+Returning867 vectors
+Attempting to get 867 vectors
+Returning867 vectors
+knneighbors_polarity trained model in 53.6518 seconds
+task: primary confusion matrix:  [[2240  103]
+ [ 484  295]]
+task: primary confusion matrix:  [[248  12]
+ [ 60  26]]
+task: adaptation confusion matrix:  [[347  82]
+ [178 260]]
+knneighbors_polarity ran in 63.4124 seconds
+voting_polarity
+training...
+Attempting to get 3122 vectors
+Returning3122 vectors
+train predictions...
+Attempting to get 3122 vectors
+Returning3122 vectors
+dev predictions...
+Attempting to get 346 vectors
+Returning346 vectors
+adaptation task predictions...
+Attempting to get 867 vectors
+Returning867 vectors
+Attempting to get 867 vectors
+Returning867 vectors
+voting_polarity trained model in 134.3768 seconds
+task: primary confusion matrix:  [[2327   16]
+ [ 324  455]]
+task: primary confusion matrix:  [[258   2]
+ [ 42  44]]
+task: adaptation confusion matrix:  [[392  37]
+ [ 44 394]]
+voting_polarity ran in 144.1612 seconds
+rm -rf src/vectors

@@ -1,0 +1,5 @@
+name: predict_random
+model: PredictRandom
+enabled: True
+hyperparameters:
+  dummy: 1

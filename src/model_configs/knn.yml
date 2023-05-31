@@ -1,0 +1,5 @@
+name: knneighbors
+model: DeepMojiWithKNN
+enabled: True
+hyperparameters:
+  n_neighbors: 5

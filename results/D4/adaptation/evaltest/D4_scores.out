@@ -1,0 +1,160 @@
+predict_false_1
+	ADAPTATION
+	TEST
+    **************************    
+    Accuracy Score: 0.49480968858131485
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       429     0
+    Sentence 2           438      0
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+predict_random
+	ADAPTATION
+	TEST
+    **************************    
+    Accuracy Score: 0.46366782006920415
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       207     222
+    Sentence 2           243      195
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+deepmoji_linear
+	ADAPTATION
+	TEST
+    **************************    
+    Accuracy Score: 0.7773933102652826
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       332     97
+    Sentence 2           96      342
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+deepmoji_rbf
+	ADAPTATION
+	TEST
+    **************************    
+    Accuracy Score: 0.43367935409457903
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       197     232
+    Sentence 2           259      179
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+adaboost_polarity
+	ADAPTATION
+	TEST
+    **************************    
+    Accuracy Score: 0.7231833910034602
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       309     120
+    Sentence 2           120      318
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+knneighbors_polarity
+	ADAPTATION
+	TEST
+    **************************    
+    Accuracy Score: 0.7001153402537486
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       347     82
+    Sentence 2           178      260
+    
+    
+     
+
+    **************************
+    **************************
+
+    
+
+voting_polarity
+	ADAPTATION
+	TEST
+    **************************    
+    Accuracy Score: 0.9065743944636678
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       392     37
+    Sentence 2           44      394
+    
+    
+     
+
+    **************************
+    **************************
+
+    

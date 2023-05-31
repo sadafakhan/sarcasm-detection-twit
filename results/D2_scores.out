@@ -1,0 +1,46 @@
+deepmoji_linear
+    TRAIN
+    **************************
+    F1 Score: 0.7837083982204123
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1875     467
+    Sarcastic           108      672
+    
+
+    DEV
+    **************************
+    F1 Score: 0.7564618934031986
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       203     57
+    Sarcastic           15      71
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5269794697598487
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       729     471
+    Sarcastic           70      130
+    
+
+**************************
+**************************
+    

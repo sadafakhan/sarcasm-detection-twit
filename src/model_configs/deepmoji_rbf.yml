@@ -1,0 +1,8 @@
+name: deepmoji_rbf
+model: DeepMojiWithSVM
+enabled: True
+hyperparameters:
+  kernel: rbf 
+  class_weight: balanced
+  verbose: True
+  probability: True

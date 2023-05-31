@@ -1,0 +1,6 @@
+name: randomforest_depth5
+model: DeepMojiWithRandomForest
+enabled: True
+hyperparameters:
+  max_depth: 5
+  verbose: True

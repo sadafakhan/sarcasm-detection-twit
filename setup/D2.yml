@@ -1,0 +1,13 @@
+name: D2
+train_data: data/primary_task/train.csv
+test_data: data/primary_task/test.csv
+# these contain configs to all models
+model_configs: 
+#  - src/model_configs/predict_false_1.yml
+#  - src/model_configs/deepmoji_rbf.yml
+ - src/model_configs/deepmoji_linear.yml
+#  - src/model_configs/deepmoji_sigmoid.yml
+#  - src/model_configs/randomforest3.yml
+#  - src/model_configs/randomforest4.yml
+#  - src/model_configs/randomforest5.yml
+results: results/D2_scores.out

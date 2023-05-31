@@ -1,0 +1,56 @@
+predict_false_1
+	Correct Predictions
+		Avg str length of sarc twts: 93.51
+		Avg str length of nonsarc rephrases: 72.6
+	Incorrect Predictions
+		Avg str length of sarc twts: 98.54
+		Avg str length of nonsarc rephrases: 73.5
+***************************************************************************
+predict_random
+	Correct Predictions
+		Avg str length of sarc twts: 96.09
+		Avg str length of nonsarc rephrases: 74.71
+	Incorrect Predictions
+		Avg str length of sarc twts: 96.01
+		Avg str length of nonsarc rephrases: 71.62
+***************************************************************************
+deepmoji_linear
+	Correct Predictions
+		Avg str length of sarc twts: 96.72
+		Avg str length of nonsarc rephrases: 74.26
+	Incorrect Predictions
+		Avg str length of sarc twts: 93.7
+		Avg str length of nonsarc rephrases: 68.85
+***************************************************************************
+deepmoji_rbf
+	Correct Predictions
+		Avg str length of sarc twts: 89.85
+		Avg str length of nonsarc rephrases: 71.81
+	Incorrect Predictions
+		Avg str length of sarc twts: 100.8
+		Avg str length of nonsarc rephrases: 74.01
+***************************************************************************
+adaboost_polarity
+	Correct Predictions
+		Avg str length of sarc twts: 95.12
+		Avg str length of nonsarc rephrases: 74.63
+	Incorrect Predictions
+		Avg str length of sarc twts: 98.47
+		Avg str length of nonsarc rephrases: 68.95
+***************************************************************************
+knneighbors_polarity
+	Correct Predictions
+		Avg str length of sarc twts: 98.44
+		Avg str length of nonsarc rephrases: 75.36
+	Incorrect Predictions
+		Avg str length of sarc twts: 90.46
+		Avg str length of nonsarc rephrases: 67.67
+***************************************************************************
+voting_polarity
+	Correct Predictions
+		Avg str length of sarc twts: 96.74
+		Avg str length of nonsarc rephrases: 73.73
+	Incorrect Predictions
+		Avg str length of sarc twts: 89.37
+		Avg str length of nonsarc rephrases: 66.52
+***************************************************************************

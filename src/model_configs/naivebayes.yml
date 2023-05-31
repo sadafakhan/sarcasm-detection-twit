@@ -1,0 +1,4 @@
+name: naive_bayes
+model: DeepMojiWithNaiveBayes
+enabled: True
+hyperparameters: {}

@@ -1,0 +1,38 @@
+Tokenizing using dictionary from /home2/nimel/573/torchMoji/model/vocabulary.json
+Loading model from /home2/nimel/573/torchMoji/model/pytorch_model.bin.
+Loading weights for embed.weight
+Loading weights for lstm_0.weight_ih_l0
+Loading weights for lstm_0.weight_hh_l0
+Loading weights for lstm_0.bias_ih_l0
+Loading weights for lstm_0.bias_hh_l0
+Loading weights for lstm_0.weight_ih_l0_reverse
+Loading weights for lstm_0.weight_hh_l0_reverse
+Loading weights for lstm_0.bias_ih_l0_reverse
+Loading weights for lstm_0.bias_hh_l0_reverse
+Loading weights for lstm_1.weight_ih_l0
+Loading weights for lstm_1.weight_hh_l0
+Loading weights for lstm_1.bias_ih_l0
+Loading weights for lstm_1.bias_hh_l0
+Loading weights for lstm_1.weight_ih_l0_reverse
+Loading weights for lstm_1.weight_hh_l0_reverse
+Loading weights for lstm_1.bias_ih_l0_reverse
+Loading weights for lstm_1.bias_hh_l0_reverse
+Loading weights for attention_layer.attention_vector
+Ignoring weights for output_layer.0.weight
+Ignoring weights for output_layer.0.bias
+total train size:  3468
+pos to neg ratio:  0.2497116493656286
+all_positives 866
+num_train_positives 779
+predict_false_1
+predict_false_1 trained model in 0.0166 seconds
+created directory:  outputs/D3/predict_false_1
+created directory:  outputs/D3/predict_false_1
+created directory:  outputs/D3/predict_false_1
+predict_false_1 ran in 0.0952 seconds
+knneighbors
+Attempting to get 3122 vectors
+created directory:  src/vectors
+File not found, creating new DeepMoji vector embeddings from src/vectors/deepmoji_train_vectors.npy
+Returning3122 vectors
+rm -rf src/vectors

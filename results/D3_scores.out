@@ -1,0 +1,939 @@
+predict_false_1
+    TRAIN
+    **************************
+    F1 Score: 0.4286237188872621
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2342     0
+    Sarcastic           780      0
+    
+
+    DEV
+    **************************
+    F1 Score: 0.429042904290429
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       260     0
+    Sarcastic           86      0
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.4615384615384615
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1200     0
+    Sentence 2           200      0
+    
+
+**************************
+**************************
+    
+
+predict_random
+    TRAIN
+    **************************
+    F1 Score: 0.4696901265276079
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1185     1157
+    Sarcastic           391      389
+    
+
+    DEV
+    **************************
+    F1 Score: 0.4608893557422969
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       121     139
+    Sarcastic           39      47
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.41516373548411184
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       590     610
+    Sentence 2           106      94
+    
+
+**************************
+**************************
+    
+
+deepmoji_rbf
+    TRAIN
+    **************************
+    F1 Score: 0.1998974884674526
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       0     2342
+    Sarcastic           0      780
+    
+
+    DEV
+    **************************
+    F1 Score: 0.19907407407407407
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       0     260
+    Sarcastic           0      86
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.125
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       0     1200
+    Sentence 2           0      200
+    
+
+**************************
+**************************
+    
+
+deepmoji_linear
+    TRAIN
+    **************************
+    F1 Score: 0.7762792407646805
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1854     488
+    Sarcastic           110      670
+    
+
+    DEV
+    **************************
+    F1 Score: 0.7573469368149024
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       199     61
+    Sarcastic           12      74
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5418836591695283
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       748     452
+    Sentence 2           66      134
+    
+
+**************************
+**************************
+    
+
+deepmoji_sigmoid
+    TRAIN
+    **************************
+    F1 Score: 0.1998974884674526
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       0     2342
+    Sarcastic           0      780
+    
+
+    DEV
+    **************************
+    F1 Score: 0.19907407407407407
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       0     260
+    Sarcastic           0      86
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.125
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       0     1200
+    Sentence 2           0      200
+    
+
+**************************
+**************************
+    
+
+randomforest_depth3
+    TRAIN
+    **************************
+    F1 Score: 0.4486715582225577
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2342     0
+    Sarcastic           765      15
+    
+
+    DEV
+    **************************
+    F1 Score: 0.4412463189892657
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       260     0
+    Sarcastic           85      1
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.4868179895671789
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1200     0
+    Sentence 2           195      5
+    
+
+**************************
+**************************
+    
+
+randomforest_depth4
+    TRAIN
+    **************************
+    F1 Score: 0.47055761515413136
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2342     0
+    Sarcastic           748      32
+    
+
+    DEV
+    **************************
+    F1 Score: 0.5302477298774575
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       260     0
+    Sarcastic           77      9
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5184038527691779
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1196     4
+    Sentence 2           188      12
+    
+
+**************************
+**************************
+    
+
+randomforest_depth5
+    TRAIN
+    **************************
+    F1 Score: 0.5345655027318501
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2341     1
+    Sarcastic           694      86
+    
+
+    DEV
+    **************************
+    F1 Score: 0.5302477298774575
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       260     0
+    Sarcastic           77      9
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.540114202643295
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1195     5
+    Sentence 2           183      17
+    
+
+**************************
+**************************
+    
+
+naive_bayes
+    TRAIN
+    **************************
+    F1 Score: 0.596324243020802
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1309     1033
+    Sarcastic           165      615
+    
+
+    DEV
+    **************************
+    F1 Score: 0.6138223171364041
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       148     112
+    Sarcastic           15      71
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.44917849903631146
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       540     660
+    Sentence 2           51      149
+    
+
+**************************
+**************************
+    
+
+knneighbors
+    TRAIN
+    **************************
+    F1 Score: 0.6870219958938469
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2245     97
+    Sarcastic           495      285
+    
+
+    DEV
+    **************************
+    F1 Score: 0.680409018174249
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       241     19
+    Sarcastic           52      34
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.6163549369290996
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1084     116
+    Sentence 2           136      64
+    
+
+**************************
+**************************
+    
+
+mlp_neural_net
+    TRAIN
+    **************************
+    F1 Score: 0.9982894997087985
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2341     1
+    Sarcastic           3      777
+    
+
+    DEV
+    **************************
+    F1 Score: 0.9653179190751445
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       255     5
+    Sarcastic           4      82
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5838474966018917
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       986     214
+    Sentence 2           123      77
+    
+
+**************************
+**************************
+    
+
+mlp_neural_net_5000
+    TRAIN
+    **************************
+    F1 Score: 0.9982909632354551
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2340     2
+    Sarcastic           2      778
+    
+
+    DEV
+    **************************
+    F1 Score: 0.9579331306990881
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       253     7
+    Sarcastic           4      82
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5701010101010101
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       935     265
+    Sentence 2           115      85
+    
+
+**************************
+**************************
+    
+
+adaboost
+    TRAIN
+    **************************
+    F1 Score: 0.6965319629106831
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2210     132
+    Sarcastic           466      314
+    
+
+    DEV
+    **************************
+    F1 Score: 0.6597308488612836
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       238     22
+    Sarcastic           54      32
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5919161830314992
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1031     169
+    Sentence 2           132      68
+    
+
+**************************
+**************************
+    
+
+logreg
+    TRAIN
+    **************************
+    F1 Score: 0.7510949642472382
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1840     502
+    Sarcastic           157      623
+    
+
+    DEV
+    **************************
+    F1 Score: 0.7334698454487836
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       199     61
+    Sarcastic           18      68
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5371036286368094
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       732     468
+    Sentence 2           63      137
+    
+
+**************************
+**************************
+    
+
+voting
+    TRAIN
+    **************************
+    F1 Score: 0.8241122230656852
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2326     16
+    Sarcastic           334      446
+    
+
+    DEV
+    **************************
+    F1 Score: 0.8070762368207623
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       252     8
+    Sarcastic           36      50
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.6109242021493986
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1083     117
+    Sentence 2           138      62
+    
+
+**************************
+**************************
+    
+
+voting_soft
+    TRAIN
+    **************************
+    F1 Score: 0.9978609578770397
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2341     1
+    Sarcastic           4      776
+    
+
+    DEV
+    **************************
+    F1 Score: 0.9728143134547822
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       257     3
+    Sarcastic           4      82
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5958299919807537
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1034     166
+    Sentence 2           131      69
+    
+
+**************************
+**************************
+    
+
+knneighbors_polarity
+    TRAIN
+    **************************
+    F1 Score: 0.6849251549271188
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2250     92
+    Sarcastic           500      280
+    
+
+    DEV
+    **************************
+    F1 Score: 0.6522230024646481
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       245     15
+    Sarcastic           58      28
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.6041757285776423
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1080     120
+    Sentence 2           140      60
+    
+
+**************************
+**************************
+    
+
+adaboost_polarity
+    TRAIN
+    **************************
+    F1 Score: 0.6965319629106831
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2210     132
+    Sarcastic           466      314
+    
+
+    DEV
+    **************************
+    F1 Score: 0.6597308488612836
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       238     22
+    Sarcastic           54      32
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5919161830314992
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1031     169
+    Sentence 2           132      68
+    
+
+**************************
+**************************
+    
+
+voting_polarity
+    TRAIN
+    **************************
+    F1 Score: 0.8242954785327667
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2328     14
+    Sarcastic           335      445
+    
+
+    DEV
+    **************************
+    F1 Score: 0.7871395709623923
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       256     4
+    Sarcastic           42      44
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.600978731413514
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       1075     125
+    Sentence 2           140      60
+    
+
+**************************
+**************************
+    
+
+mlp_polarity
+    TRAIN
+    **************************
+    F1 Score: 0.9982894997087985
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2341     1
+    Sarcastic           3      777
+    
+
+    DEV
+    **************************
+    F1 Score: 0.9579331306990881
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       253     7
+    Sarcastic           4      82
+    
+
+    TEST
+    **************************    
+    F1 Score: 0.5678264950000456
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Sentence 1		   Sentence 2
+    
+    Sentence 1		       947     253
+    Sentence 2           120      80
+    
+
+**************************
+**************************
+    

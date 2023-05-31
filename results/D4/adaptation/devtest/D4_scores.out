@@ -1,0 +1,258 @@
+predict_false_1
+	ADAPTATION
+	TRAIN
+    **************************
+    Accuracy Score: 0.7504804612427931
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2343     0
+    Sarcastic           779      0
+    
+
+    DEV
+    **************************
+    Accuracy Score: 0.7514450867052023
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       260     0
+    Sarcastic           86      0
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+predict_random
+	ADAPTATION
+	TRAIN
+    **************************
+    Accuracy Score: 0.5032030749519538
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1170     1173
+    Sarcastic           378      401
+    
+
+    DEV
+    **************************
+    Accuracy Score: 0.5
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       134     126
+    Sarcastic           47      39
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+deepmoji_linear
+	ADAPTATION
+	TRAIN
+    **************************
+    Accuracy Score: 0.8065342729019859
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       1860     483
+    Sarcastic           121      658
+    
+
+    DEV
+    **************************
+    Accuracy Score: 0.8092485549132948
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       209     51
+    Sarcastic           15      71
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+deepmoji_rbf
+	ADAPTATION
+	TRAIN
+    **************************
+    Accuracy Score: 0.24951953875720692
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       0     2343
+    Sarcastic           0      779
+    
+
+    DEV
+    **************************
+    Accuracy Score: 0.24855491329479767
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       0     260
+    Sarcastic           0      86
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+adaboost_polarity
+	ADAPTATION
+	TRAIN
+    **************************
+    Accuracy Score: 0.8116591928251121
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2213     130
+    Sarcastic           458      321
+    
+
+    DEV
+    **************************
+    Accuracy Score: 0.8063583815028902
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       244     16
+    Sarcastic           51      35
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+knneighbors_polarity
+	ADAPTATION
+	TRAIN
+    **************************
+    Accuracy Score: 0.8119795003203075
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2240     103
+    Sarcastic           484      295
+    
+
+    DEV
+    **************************
+    Accuracy Score: 0.791907514450867
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       248     12
+    Sarcastic           60      26
+    
+        
+     
+
+    **************************
+    **************************
+
+    
+
+voting_polarity
+	ADAPTATION
+	TRAIN
+    **************************
+    Accuracy Score: 0.8910954516335682
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       2327     16
+    Sarcastic           324      455
+    
+
+    DEV
+    **************************
+    Accuracy Score: 0.8728323699421965
+    Confusion Matrix: 
+    
+    Columns = Predicted
+    Rows = True Labels
+
+                Not Sarcastic   Sarcastic
+    
+    Not Sarcastic       258     2
+    Sarcastic           42      44
+    
+        
+     
+
+    **************************
+    **************************
+
+    
